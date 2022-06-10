@@ -13,14 +13,8 @@ export default function Home() {
       parameters: [
         {name: 'user', description: '*required* the id of the user'},
         {name: 'name', description: '*required* the name of the trip'},
-        {
-          name: 'start_date',
-          description: '(optional) the starting date of the trip'
-        },
-        {
-          name: 'end_date',
-          description: '(optional) the end date of the trip'
-        }
+        {name: 'start_date', description: '(optional) the starting date of the trip'},
+        { name: 'end_date', description: '(optional) the end date of the trip'}
       ],
     },
     {
